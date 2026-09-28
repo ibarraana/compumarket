@@ -10,6 +10,10 @@ Este proyecto BackEnd esta realizado con las siguientes tecnologias:
 * **NodeJS:** *Entorno de ejecución de JavaScript*
 * **MySQL:** *Base de datos*
 
+### Descripción del diagrama de base de datos:
+
+!["Diagrama de bases de datos"](./bases%20de%20datos/diagrama.png)
+
 ### Pasos de ejecución del proyecto
 ---
 
