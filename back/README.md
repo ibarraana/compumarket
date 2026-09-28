@@ -1,6 +1,7 @@
 # Proyecto BackEnd
 
 ### Información del proyecto
+---
 
 Este proyecto BackEnd esta realizado con las siguientes tecnologias:
 
@@ -10,6 +11,7 @@ Este proyecto BackEnd esta realizado con las siguientes tecnologias:
 * **MySQL:** *Base de datos*
 
 ### Pasos de ejecución del proyecto
+---
 
 Primero, para poder ejecutar este proyecto BackEnd en el Visual Studio Code, debemos navegar hacia esta carpeta cuyo nombre es "Back"
 

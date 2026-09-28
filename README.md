@@ -1,6 +1,7 @@
 # compuMarket
 
 ### Información
+---
 
 Este es un proyecto creado por alumnas del **Instituto Superior Santa Rosa de Calamuchita** 
 
