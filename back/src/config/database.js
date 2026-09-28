@@ -4,7 +4,7 @@ import { Sequelize } from 'sequelize';
 const sequelize = new Sequelize(
   process.env.DB_NAME || 'ecommerce1', // Nombre de la BD
   process.env.DB_USER || 'root',             // Usuario
-  process.env.DB_PASSWORD || '',             // Contraseña
+  process.env.DB_PASSWORD || 'root',             // Contraseña
   {
     host: process.env.DB_HOST || '127.0.0.1',
     dialect: 'mysql', // Cambia a 'postgres', 'mariadb' o 'sqlite' según tu motor de BD
