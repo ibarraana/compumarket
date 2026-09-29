@@ -13,7 +13,7 @@ const Producto = sequelize.define('Producto', {
     },
     idCategoria: {
         type: DataTypes.INTEGER,
-        allowNull: false,
+        allowNull: true,
     },
     sku: {
         type: DataTypes.STRING,

@@ -49,7 +49,7 @@ export const seedComputacion = async () => {
             imagen: JSON.stringify(['zephyrus_1.jpg', 'zephyrus_2.jpg']),
             stock: 15,
             idMarca: marcaASUS.id,
-            idCategoria: catLaptops.id,
+            idCategoria: null, //catLaptops.id
         });
 
         // --- PERIFÉRICO ---
@@ -61,7 +61,7 @@ export const seedComputacion = async () => {
             imagen: JSON.stringify(['gpro_white.jpg']),
             stock: 40,
             idMarca: marcaLogitech.id,
-            idCategoria: catPerifericos.id,
+            idCategoria: null, //catPerifericos.id
         });
 
         // --- HARDWARE / COMPONENTE ---
@@ -73,7 +73,7 @@ export const seedComputacion = async () => {
             imagen: JSON.stringify(['corsair_ddr5.jpg']),
             stock: 25,
             idMarca: marcaCorsair.id,
-            idCategoria: catHardware.id,
+            idCategoria:null, // catHardware.id
         });
 
         console.log('✅ Base de datos de Computación poblada con éxito.');
