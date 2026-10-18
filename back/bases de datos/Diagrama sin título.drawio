@@ -1,0 +1,196 @@
+<mxfile host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36">
+  <diagram id="2ca16b54-16f6-2749-3443-fa8db7711227" name="Página-1">
+    <mxGraphModel dx="2361" dy="1926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2ed32ef02a7f4228-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;Calificaciones&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;td&gt;id_cliente&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;FK&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;id_producto&amp;nbsp; &amp;nbsp; FK&lt;br&gt;puntaje&lt;br&gt;comentario&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="110" width="190" x="950" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="2ed32ef02a7f4228-18" edge="1" parent="1" source="r5XqtviF4CmMTfNCPz70-15" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.75;dashed=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;exitX=-0.02;exitY=0.31;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;" target="r5XqtviF4CmMTfNCPz70-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" as="sourcePoint" />
+            <mxPoint x="1420" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-3" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;carrito_items&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;&amp;nbsp; id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp; id_carrito&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;FK&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp; id_producto&amp;nbsp; &amp;nbsp; FK&lt;br&gt;&amp;nbsp; cantidad&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="90" width="170" x="930" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-4" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;carritos&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;&amp;nbsp; id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp; id_cliente&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; FK&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp; nombre_carrito&lt;br&gt;&amp;nbsp; estado&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="90" width="170" x="930" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-5" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;categorias&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;nombre&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;descripcion&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="80" width="170" x="1710" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-6" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;clientes&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;nombre&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;apellido&lt;br&gt;email&lt;br&gt;telefono&lt;br&gt;password&lt;br&gt;reset_password_token&lt;br&gt;reset_password_expires&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="160" width="200" x="1270" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-7" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;detalle_pedidos&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/td&gt;&lt;td&gt;id_pedido&amp;nbsp; &amp;nbsp; &amp;nbsp;FK&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;id_producto&amp;nbsp; FK&lt;br&gt;cantidad&lt;br&gt;precioUnitario&lt;br&gt;subtotal&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="120" width="150" x="930" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-8" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;domicilio&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;&amp;nbsp; &amp;nbsp; id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp; &amp;nbsp; calle&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp; &amp;nbsp; numero&lt;br&gt;&amp;nbsp; &amp;nbsp; ciudad&lt;br&gt;&amp;nbsp; &amp;nbsp; departamento&lt;br&gt;&amp;nbsp; &amp;nbsp; piso&lt;br&gt;&amp;nbsp; &amp;nbsp; codigo_postal&lt;br&gt;&amp;nbsp; &amp;nbsp; id_cliente&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;FK&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="150" width="170" x="1490" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-9" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;envios&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;id_pedido&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;FK&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;estado_envio&lt;br&gt;numero_guia_seguimiento&lt;br&gt;direccion_entrega_historica&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="110" width="200" x="610" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-10" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;marcas&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;nombre&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;estado&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="1740" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-11" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;pagos&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;id_pedido&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;FK&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;metodo_pago&lt;br&gt;estado_pago&lt;br&gt;transaccion_pasarela_id&lt;br&gt;monto&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="130" width="180" x="650" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-12" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;pedidos&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;id_cliente&amp;nbsp; FK&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;estado&lt;br&gt;total&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="90" width="120" x="955" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-13" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;producto_categoria&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id_producto&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id_categoria&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="1560" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-14" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;productos&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;&amp;nbsp; id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp; id_marca&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; FK&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp; id_categoria&amp;nbsp; &amp;nbsp; FK&lt;br&gt;&amp;nbsp; sku&lt;br&gt;&amp;nbsp; nombre&lt;br&gt;&amp;nbsp; precio&lt;br&gt;&amp;nbsp; stock&lt;br&gt;&amp;nbsp; imagen&lt;br&gt;&amp;nbsp; peso&lt;br&gt;&amp;nbsp; descripcion&lt;br&gt;&amp;nbsp; estado&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="200" width="180" x="1400" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-15" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;roles&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;nombre&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;descripcion&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="80" width="150" x="1490" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-16" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;usuarios&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;&amp;nbsp; &amp;nbsp; id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp; &amp;nbsp; nombre&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp; &amp;nbsp; apellido&lt;br&gt;&amp;nbsp; &amp;nbsp; email&lt;br&gt;&amp;nbsp; &amp;nbsp; telefono&lt;br&gt;&amp;nbsp; &amp;nbsp; direccion&lt;br&gt;&amp;nbsp; &amp;nbsp; rol_id&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; FK&lt;br&gt;&amp;nbsp; &amp;nbsp; password&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="160" width="160" x="1210" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-17" edge="1" parent="1" source="r5XqtviF4CmMTfNCPz70-6" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1.004;entryY=0.905;dashed=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;exitX=0.003;exitY=0.176;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="r5XqtviF4CmMTfNCPz70-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1230" y="308.19" />
+              <mxPoint x="1230" y="456.5" />
+              <mxPoint x="1700" y="456.5" />
+              <mxPoint x="1700" y="355.81" />
+            </Array>
+            <mxPoint x="1667" y="378" as="sourcePoint" />
+            <mxPoint x="1550" y="473" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-18" edge="1" parent="1" source="r5XqtviF4CmMTfNCPz70-10" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.991;entryY=0.223;dashed=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;exitX=-0.008;exitY=0.357;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="r5XqtviF4CmMTfNCPz70-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1789" y="570" as="sourcePoint" />
+            <mxPoint x="1672" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-19" edge="1" parent="1" source="r5XqtviF4CmMTfNCPz70-5" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1.004;entryY=0.309;dashed=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="r5XqtviF4CmMTfNCPz70-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1640" y="629.97" />
+              <mxPoint x="1640" y="551.83" />
+            </Array>
+            <mxPoint x="2200" y="617" as="sourcePoint" />
+            <mxPoint x="2019" y="593" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-21" edge="1" parent="1" source="r5XqtviF4CmMTfNCPz70-6" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1.009;entryY=0.413;dashed=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;exitX=-0.001;exitY=0.18;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="2ed32ef02a7f4228-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220.03" y="308.8" />
+              <mxPoint x="1220.03" y="565.43" />
+            </Array>
+            <mxPoint x="1348.49" y="480" as="sourcePoint" />
+            <mxPoint x="1231.49" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-22" edge="1" parent="1" source="r5XqtviF4CmMTfNCPz70-14" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1.001;entryY=0.569;dashed=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;exitX=0;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="2ed32ef02a7f4228-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1304.03" y="520" />
+              <mxPoint x="1304.03" y="582.57" />
+            </Array>
+            <mxPoint x="1354" y="526.99" as="sourcePoint" />
+            <mxPoint x="1226" y="782.99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-23" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;dashed=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;entryDx=0;entryDy=0;" target="r5XqtviF4CmMTfNCPz70-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160.03" y="310" />
+              <mxPoint x="1160.03" y="295.03" />
+            </Array>
+            <mxPoint x="1270" y="310" as="sourcePoint" />
+            <mxPoint x="1082" y="491.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-24" edge="1" parent="1" source="r5XqtviF4CmMTfNCPz70-4" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;dashed=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;entryDx=0;entryDy=0;exitX=-0.008;exitY=0.298;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900.03" y="276.8" />
+              <mxPoint x="900.03" y="360" />
+              <mxPoint x="1160.03" y="360" />
+              <mxPoint x="1160.03" y="440" />
+            </Array>
+            <mxPoint x="1270" y="455" as="sourcePoint" />
+            <mxPoint x="1100" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-26" edge="1" parent="1" source="r5XqtviF4CmMTfNCPz70-14" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1.008;entryY=0.686;dashed=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;entryDx=0;entryDy=0;exitX=0.004;exitY=0.146;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="r5XqtviF4CmMTfNCPz70-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1360.03" y="519.2" />
+              <mxPoint x="1360.03" y="480" />
+              <mxPoint x="1170.03" y="480" />
+              <mxPoint x="1170.03" y="451.71" />
+            </Array>
+            <mxPoint x="1238.94" y="620" as="sourcePoint" />
+            <mxPoint x="1409.94" y="783" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-27" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;dashed=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;entryDx=0;entryDy=0;" target="r5XqtviF4CmMTfNCPz70-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160.03" y="310" />
+              <mxPoint x="1160.03" y="15.03" />
+            </Array>
+            <mxPoint x="1270" y="310" as="sourcePoint" />
+            <mxPoint x="1070" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-28" edge="1" parent="1" source="r5XqtviF4CmMTfNCPz70-12" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1.009;entryY=0.376;dashed=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;entryDx=0;entryDy=0;exitX=0;exitY=0.295;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="r5XqtviF4CmMTfNCPz70-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900.03" y="-3.43" />
+              <mxPoint x="900.03" y="80" />
+              <mxPoint x="1120.03" y="80" />
+              <mxPoint x="1120.03" y="145.09" />
+            </Array>
+            <mxPoint x="900" y="74.97" as="sourcePoint" />
+            <mxPoint x="730" y="59.97" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-29" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;dashed=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;entryDx=0;entryDy=0;" target="r5XqtviF4CmMTfNCPz70-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180.03" y="520" />
+              <mxPoint x="1180.03" y="160" />
+            </Array>
+            <mxPoint x="1400" y="520" as="sourcePoint" />
+            <mxPoint x="1180" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-30" edge="1" parent="1" source="r5XqtviF4CmMTfNCPz70-12" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.998;entryY=0.367;dashed=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" target="r5XqtviF4CmMTfNCPz70-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860.03" y="-7.49" />
+              <mxPoint x="860.03" y="17.71" />
+            </Array>
+            <mxPoint x="1030" y="-85" as="sourcePoint" />
+            <mxPoint x="860" y="-100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5XqtviF4CmMTfNCPz70-31" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.995;entryY=0.437;dashed=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="871.03" y="-9.97" />
+              <mxPoint x="871.03" y="169.97" />
+              <mxPoint x="830" y="169.97" />
+            </Array>
+            <mxPoint x="956" y="-10" as="sourcePoint" />
+            <mxPoint x="810.0000000000002" y="170.56999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

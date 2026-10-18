@@ -1,16 +1,33 @@
-# React + Vite
+# Proyecto FrontEnd
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es el proyecto FrontEnd, desarrollado con las siguienes tecnologias:
 
-Currently, two official plugins are available:
+* **React:** *Libreria de JavaScript*
+* **Vite:** *Entorno de desarrollo*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Pasos para ejecutar el proyecto
 
-## React Compiler
+Primero debemos posicionarnos sobre la carpeta del proyecto, para ello abrimos la terminal del Visual Studio Code y escribimos el siguiente comando:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```cmd
+cd ./front
+```
 
-## Expanding the ESLint configuration
+Una vez dentro del proyecto, escribimos el comando para instalar todas las dependencias:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```cmd
+npm install
+```
+
+Hecho este ultimo paso, tipeamos este comando para ejecutar el proyecto
+
+```cmd
+npm run dev
+```
+
+El proyecto esta ejecutandose, para detener el mismo, sobre la terminal presionamos la siguiente combinación de teclas:
+
+```cmd
+Ctrl+c
+```
+
